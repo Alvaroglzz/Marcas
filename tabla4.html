@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabla de Climas de América del Sur (Corregida)</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 70%; 
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        caption {
+            font-weight: bold;
+            padding: 10px;
+            background-color: #6a6a6a;
+            color: white;
+            font-size: 1.2em;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        /* Estilos de la Fila Superior (Regiones y Países) */
+        .region-desc {
+            background-color: #dcdcdc; /* Fondo gris claro */
+            vertical-align: top; /* Alinear texto en la parte superior */
+            width: 30%; /* Ancho ajustado para las descripciones */
+        }
+        .country {
+            background-color: #c0c0c0; /* Fondo gris medio para los países */
+            width: 20%;
+        }
+        /* Estilos de la Fila Inferior (Descripciones de Clima) */
+        .climate-description {
+            background-color: #48b0b0; /* Fondo turquesa/azul verdoso */
+            color: black;
+            text-align: left;
+            font-size: 0.9em;
+            vertical-align: top;
+            padding: 10px;
+            height: 100px; /* Altura para dar espacio al texto */
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Climas de América del Sur</caption>
+        
+        <tr>
+            <td rowspan="4" class="region-desc">
+                Parte de arriba de América del Sur. Países como:
+            </td>
+            <td class="country">Venezuela</td>
+            <td rowspan="4" class="region-desc">
+                Parte de abajo de América del Sur. Países como:
+            </td>
+            <td class="country">Argentina</td>
+        </tr>
+        
+        <tr>
+            <td class="country">Colombia</td>
+            <td class="country">Chile</td>
+        </tr>
+        <tr>
+            <td class="country">Ecuador</td>
+            <td class="country">Uruguay</td>
+        </tr>
+        <tr>
+            <td class="country">Perú</td>
+            <td class="country">Paraguay</td>
+        </tr>
+        
+        <tr>
+            <td colspan="2" class="climate-description">
+                Bosque tropical, clima de sabana, clima marítimo con inviernos secos.
+            </td>
+            <td colspan="2" class="climate-description">
+                Climas marítimos con veranos secos, con inviernos secos, climas fríos, clima de estepa, clima desértico.
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
