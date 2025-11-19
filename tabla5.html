@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cursos de la Comunidad - Tabla Fiel</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%; /* Ajuste del ancho general */
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        caption {
+            font-size: 1.1em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #c0c0c0; /* Fondo gris en el título */
+            border: 1px solid black;
+            border-bottom: none; /* Quitamos la línea de abajo para que se fusione con el thead */
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left; /* Alineación general para los datos */
+            background-color: #e0e0e0; /* Fondo gris claro para todas las celdas */
+            vertical-align: top; /* Alinear el contenido a la parte superior */
+        }
+        th {
+            background-color: #c0c0c0; /* Gris más oscuro para los encabezados */
+            text-align: center;
+        }
+        /* Ajustes de ancho para replicar la apariencia de la imagen */
+        .col-nombre { width: 18%; }
+        .col-tutor { width: 15%; }
+        .col-resumen { width: 50%; text-align: justify; } /* El texto del resumen parece justificado */
+        .col-codigo { width: 8%; text-align: center; }
+        .col-tasa { width: 9%; text-align: center; }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Cursos de la Comunidad -- Otoño de 1997</caption>
+        <thead>
+            <tr>
+                <th class="col-nombre">Nombre del curso</th>
+                <th class="col-tutor">Tutor del Curso</th>
+                <th class="col-resumen">Resumen</th>
+                <th class="col-codigo">Código</th>
+                <th class="col-tasa">Tasa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="col-nombre">Tras la Guerra Civil</td>
+                <td class="col-tutor">Dr. John Wroughton</td>
+                <td class="col-resumen">El curso examinará los años turbulentos que siguieron a 1640 en Inglaterra. Reuniones cada 8 semanas a partir del lunes 27 de octubre</td>
+                <td class="col-codigo">827</td>
+                <td class="col-tasa">652</td>
+            </tr>
+            <tr>
+                <td class="col-nombre">Una Introducción a la Inglaterra anglosajona</td>
+                <td class="col-tutor">Mark Cottle</td>
+                <td class="col-resumen">Este curso de un día presenta una reconstrucción de los anglosajones y de su sociedad en el período medieval temprano. Sábado 18 de octubre.</td>
+                <td class="col-codigo">828</td>
+                <td class="col-tasa">418</td>
+            </tr>
+            <tr>
+                <td class="col-nombre">La gloriosa Grecia</td>
+                <td class="col-tutor">Valerie Lerew</td>
+                <td class="col-resumen">Lugar de nacimiento de la democracia y la filosofía, patria del teatro, lugar de la discusión. Los romanos pueden haberlo hecho, pero los griegos lo hicieron primero. Clases restantes del sábado 25 de octubre de 1997</td>
+                <td class="col-codigo">830</td>
+                <td class="col-tasa">418</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabla Puzle Final (5x6)</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 500px; 
+            height: 250px; 
+            margin: 20px auto;
+            border: 2px solid black;
+        }
+        td {
+            border: 1px solid black;
+            padding: 0; 
+            line-height: 0; 
+        }
+        /* Definición de colores basada en la imagen */
+        .verde { background-color: #6aa84f; }
+        .amarillo-claro { background-color: #ffd966; } /* Fila 1 y Fila 3 */
+        .gris-oscuro { background-color: #4a596b; }
+        .azul { background-color: #4a86e8; }
+        .naranja { background-color: #f6b26b; }
+        .gris-medio { background-color: #b7b7b7; }
+        .morado { background-color: #8e7cc3; }
+        .rojo { background-color: #cc0000; }
+        .amarillo-puro { background-color: #ffff00; } /* Amarillo brillante */
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td colspan="3" class="verde"></td>
+            <td colspan="2" class="amarillo-claro"></td>
+            <td class="gris-oscuro"></td>
+        </tr>
+        
+        <tr>
+            <td rowspan="4" class="amarillo-puro"></td> 
+            <td colspan="4" class="azul"></td>
+            <td class="gris-oscuro"></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2" class="naranja"></td>
+            <td colspan="2" rowspan="2" class="gris-medio"></td>
+            <td colspan="2" class="amarillo-claro"></td>
+            <td rowspan="3" class="morado"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" class="amarillo-puro"></td>
+        </tr>
+
+        <tr>
+            <td class="amarillo-puro"></td> 
+            <td colspan="3" class="rojo"></td>
+            <td class="amarillo-puro"></td>
+            </tr>
+    </table>
+
+</body>
+</html>
