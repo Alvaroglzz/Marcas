@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Tablas adicionales</title>
+
+<style>
+  table {
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    width: 500px;
+  }
+  th, td {
+    border: 1px solid #000;
+    padding: 6px;
+    text-align: center;
+  }
+
+  /* Tabla 2 de animales */
+  .titulo {
+    background: #555;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .rojo {
+    background: rgb(255, 0, 0);
+    color: white;
+    font-weight: bold;
+  }
+
+  /* Tabla 3 de enfermería */
+  .encabezado {
+    background: #ddd;
+    font-weight: bold;
+  }
+</style>
+
+</head>
+<body>
+
+<!-- TABLA 1: Productos -->
+<table>
+  <tr class="encabezado">
+    <th>Nombre producto</th>
+    <th>Pecio unitario</th>
+    <th>Unidades</th>
+    <th>Subtotal</th>
+  </tr>
+
+  <tr>
+    <td>Reproductor MP3 (80 GB)</td>
+    <td>192.02</td>
+    <td>1</td>
+    <td>192.02</td>
+  </tr>
+
+  <tr>
+    <td>Fundas de colores</td>
+    <td>52</td>
+    <td>5</td>
+    <td>12.50</td>
+  </tr>
+
+  <tr>
+    <td>Reproductor de radio & control remoto</td>
+    <td>12.99</td>
+    <td>1</td>
+    <td>12.99</td>
+  </tr>
+
+  <tr class="encabezado">
+    <td><strong>TOTAL</strong></td>
+    <td>-</td>
+    <td>7</td>
+    <td>207.51</td>
+  </tr>
+</table>
+
+<!-- TABLA 2: Animales en peligro de extinción -->
+<table>
+  <tr>
+    <th class="titulo" colspan="4">Animales en peligro de extinción</th>
+  </tr>
+
+  <tr class="encabezado">
+    <td>Nombre</td>
+    <td>Cabezas</td>
+    <td>Previsión 2010</td>
+    <td>Previsión 2020</td>
+  </tr>
+
+  <tr>
+    <td>Ballena</td>
+    <td>6000</td>
+    <td>4000</td>
+    <td>1500</td>
+  </tr>
+
+  <tr>
+    <td>Oso Pardo</td>
+    <td>50</td>
+    <td class="rojo" colspan="4">0</td>
+  </tr>
+
+  <tr>
+    <td>Lince</td>
+    <td>10</td>
+    <td class="rojo" colspan="4">0</td>
+  </tr>
+
+  <tr>
+    <td>Tigre</td>
+    <td>300</td>
+    <td class="white" colspan=2">210</td>
+  </tr>
+</table>
+
+<!-- TABLA 3: Personal técnico en enfermería -->
+
+<table>
+  <tr class="encabezado">
+    <th colspan="2">PERSONAL TÉCNICO EN ENFERMERÍA</th>
+    <th colspan="3 ">POBLACIÓN</th>
+    <tr class="encabezado">
+    <td rowspan="2">Consultorios externos</td>
+    <td rowspan="2"></td>
+    <td colspan="2">SEXO</td>
+    <td rowspan="2">TOTAL</td>
+  </tr>
+
+  <tr class="encabezado">
+    <td>HOMBRES</td>
+    <td>MUJERES</td>
+    
+  </tr>
+
+  <tr>
+    <td>Consultorios externos</td>
+    <td></td>
+    <td>02</td>
+    <td>18</td>
+    <td>20</td>
+  </tr>
+
+  <tr>
+    <td>Hospitalización</td>
+    <td></td>
+    <td>06</td>
+    <td>14</td>
+    <td>20</td>
+  </tr>
+
+  <tr>
+    <td>Laboratorios y otros</td>
+    <td></td>
+    <td>02</td>
+    <td>18</td>
+    <td>20</td>
+  </tr>
+
+  <tr class="encabezado">
+    <td><strong>TOTAL</strong></td>
+    <td></td>
+    <td>10</td>
+    <td>50</td>
+    <td>60</td>
+  </tr>
+</table>
+
+</body>
+</html>
