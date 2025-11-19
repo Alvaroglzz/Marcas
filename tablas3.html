@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabla con Celdas Fusionadas - Esquina Izquierda</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%; /* Ajusta el ancho según sea necesario */
+            margin: 20px auto;
+            background-color: #e0e0e0; /* Fondo gris similar al de la imagen */
+            font-family: Arial, sans-serif;
+        }
+        caption {
+            font-style: italic;
+            padding: 10px;
+            font-weight: bold;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #c0c0c0; /* Un gris un poco más oscuro para los encabezados */
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Una tabla de muestra con celdas fusionadas</caption>
+        <thead>
+            <tr>
+                <th rowspan="2"></th> <th colspan="2">Media</th>
+                <th rowspan="2">Ojos Rojos</th>
+            </tr>
+            <tr>
+                <th>altura</th>
+                <th>peso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Machos</th>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <th>Hembras</th>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
